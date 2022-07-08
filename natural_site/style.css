@@ -1,0 +1,75 @@
+p{
+    color: aquamarine;
+    font-size: 90px;
+    font-family: verdana;
+}
+body {
+    background-color: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(253, 253, 253);
+    height: 80px;
+    padding: 20px;
+}
+
+footer{
+    clear: both;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+}
+.container{
+width: 960px;
+margin: auto;
+
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 0 50px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p { color: rgb(255, 251, 251);
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    line-height: 5,0px;
+    word-spacing: 8px;
+
+
+}
+#principal{
+    background-image: url(img/fundo3.jpg);
+    background-size: 100%;
+    clear: both;
+    min-height: 400px;
+    padding: 100px 0 0 0 ;
+
+}
+#logo{
+    float:left
+
+}
+#menu{
+    float: right;
+    margin-top: 30px;
+}
+#menu a{
+    padding: 8px;
+    text-decoration: none;
+    color: green;
+}
+
+#menu a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
